@@ -1,0 +1,15 @@
+# run: conda env create --file conda-env.yml --force
+# conda env update --file conda-env.yml
+name: 3laender-tulpen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - googletrans
+#Dev-Dependencies
+  - pylint
+  - jupyter
+  - rope
+  - autopep8
